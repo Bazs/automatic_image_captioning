@@ -28,12 +28,12 @@ For the full model architecture please refer to `model.py`.
 
 I have kept the pre-trained ResNet weights frozen during training. The embedding layer an the decoder were trained from scratch using the [COCO dataset](https://cocodataset.org/#home).
 
-For details on hyperparameter choices, please refer to `2_Training.html`.
+For details on hyperparameter choices, please refer to `2_Training.pdf`.
 
 ### Inference
 
 Inference is implemented using **Sampling**, where at each step of the RNN, the word with the highest softmax probability is selected as output,
-and is used as input for the next step after passing it through an embedding layer. Refer to `3_Inference.html` for example outputs 
+and is used as input for the next step after passing it through an embedding layer. Refer to `3_Inference.pdf` for example outputs 
 on the test dataset.
 
 ## References

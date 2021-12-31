@@ -1,2 +1,5 @@
 # JetBrains IDE files
 .idea/
+
+# JupyterLab checkpoints
+.ipynb_checkpoints
